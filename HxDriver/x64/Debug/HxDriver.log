@@ -1,0 +1,36 @@
+﻿  Building 'HxDriver' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping x64\Debug\HxDriver.inf
+  Stamping [Version] section with DriverVer=09/04/2018,20.18.14.710
+  HxDriver.c
+d:\projects\hacking\mistaken\files\antieacdriver\hxdriver\hxdriver.c(15): warning C4047: 'function': 'ULONG' differs in levels of indirection from 'void *'
+d:\projects\hacking\mistaken\files\antieacdriver\hxdriver\hxdriver.c(15): warning C4024: 'ExAllocatePoolWithTag': different types for formal and actual parameter 3
+d:\projects\hacking\mistaken\files\antieacdriver\hxdriver\hxdriver.c(23): warning C4047: 'function': 'ULONG' differs in levels of indirection from 'void *'
+d:\projects\hacking\mistaken\files\antieacdriver\hxdriver\hxdriver.c(23): warning C4024: 'ExFreePoolWithTag': different types for formal and actual parameter 2
+d:\projects\hacking\mistaken\files\antieacdriver\hxdriver\hxdriver.c(25): warning C4047: 'function': 'ULONG' differs in levels of indirection from 'void *'
+d:\projects\hacking\mistaken\files\antieacdriver\hxdriver\hxdriver.c(25): warning C4024: 'ExAllocatePoolWithTag': different types for formal and actual parameter 3
+d:\projects\hacking\mistaken\files\antieacdriver\hxdriver\hxdriver.c(35): warning C4018: '<': signed/unsigned mismatch
+d:\projects\hacking\mistaken\files\antieacdriver\hxdriver\hxdriver.c(38): warning C4057: 'function': 'const char *' differs in indirection to slightly different base types from 'UCHAR [256]'
+d:\projects\hacking\mistaken\files\antieacdriver\hxdriver\hxdriver.c(41): warning C4047: 'function': 'ULONG' differs in levels of indirection from 'void *'
+d:\projects\hacking\mistaken\files\antieacdriver\hxdriver\hxdriver.c(41): warning C4024: 'ExAllocatePoolWithTag': different types for formal and actual parameter 3
+d:\projects\hacking\mistaken\files\antieacdriver\hxdriver\hxdriver.c(45): warning C4047: 'function': 'ULONG' differs in levels of indirection from 'void *'
+d:\projects\hacking\mistaken\files\antieacdriver\hxdriver\hxdriver.c(45): warning C4024: 'ExFreePoolWithTag': different types for formal and actual parameter 2
+d:\projects\hacking\mistaken\files\antieacdriver\hxdriver\hxdriver.c(52): warning C4047: 'function': 'ULONG' differs in levels of indirection from 'void *'
+d:\projects\hacking\mistaken\files\antieacdriver\hxdriver\hxdriver.c(52): warning C4024: 'ExFreePoolWithTag': different types for formal and actual parameter 2
+d:\projects\hacking\mistaken\files\antieacdriver\hxdriver\hxdriver.c(68): warning C4047: 'initializing': '_DbgkpPostFakeProcessCreateMessages' differs in levels of indirection from 'PUCHAR'
+d:\projects\hacking\mistaken\files\antieacdriver\hxdriver\hxdriver.c(75): warning C4047: 'initializing': '_DbgkpSetProcessDebugObject' differs in levels of indirection from 'PUCHAR'
+d:\projects\hacking\mistaken\files\antieacdriver\hxdriver\hxdriver.c(91): warning C4047: 'function': 'POBJECT_TYPE' differs in levels of indirection from 'POBJECT_TYPE *'
+d:\projects\hacking\mistaken\files\antieacdriver\hxdriver\hxdriver.c(91): warning C4024: 'ObReferenceObjectByHandle': different types for formal and actual parameter 3
+d:\projects\hacking\mistaken\files\antieacdriver\hxdriver\hxdriver.c(100): warning C4047: 'function': 'POBJECT_TYPE' differs in levels of indirection from 'POBJECT_TYPE *'
+d:\projects\hacking\mistaken\files\antieacdriver\hxdriver\hxdriver.c(100): warning C4024: 'ObReferenceObjectByHandle': different types for formal and actual parameter 3
+d:\projects\hacking\mistaken\files\antieacdriver\hxdriver\hxdriver.c(105): warning C4047: 'function': 'PEX_RUNDOWN_REF' differs in levels of indirection from 'PEX_RUNDOWN_REF *'
+d:\projects\hacking\mistaken\files\antieacdriver\hxdriver\hxdriver.c(105): warning C4024: 'ExAcquireRundownProtection': different types for formal and actual parameter 1
+d:\projects\hacking\mistaken\files\antieacdriver\hxdriver\hxdriver.c(114): warning C4047: 'function': 'PEX_RUNDOWN_REF' differs in levels of indirection from 'PEX_RUNDOWN_REF *'
+d:\projects\hacking\mistaken\files\antieacdriver\hxdriver\hxdriver.c(114): warning C4024: 'ExReleaseRundownProtection': different types for formal and actual parameter 1
+d:\projects\hacking\mistaken\files\antieacdriver\hxdriver\hxdriver.c(98): warning C4047: 'initializing': 'POBJECT_TYPE **' differs in levels of indirection from 'PUCHAR'
+d:\projects\hacking\mistaken\files\antieacdriver\hxdriver\hxdriver.c(167): warning C4100: 'DeviceObject': unreferenced formal parameter
+d:\projects\hacking\mistaken\files\antieacdriver\hxdriver\hxdriver.c(218): warning C4100: 'DeviceObject': unreferenced formal parameter
+d:\projects\hacking\mistaken\files\antieacdriver\hxdriver\hxdriver.c(231): warning C4100: 'DeviceObject': unreferenced formal parameter
+d:\projects\hacking\mistaken\files\antieacdriver\hxdriver\hxdriver.c(255): warning C4100: 'RegistryPath': unreferenced formal parameter
+d:\projects\hacking\mistaken\files\antieacdriver\hxdriver\hxdriver.c(208): warning C4701: potentially uninitialized local variable 'status' used
+HxDriver.obj : error LNK2019: unresolved external symbol __CheckForDebuggerJustMyCode referenced in function CloseHandler
+D:\Projects\Hacking\Mistaken\Files\AntiEACDriver\x64\Debug\HxDriver.sys : fatal error LNK1120: 1 unresolved externals
